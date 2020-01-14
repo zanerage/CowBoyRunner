@@ -770,12 +770,12 @@ GameObject:
   - component: {fileID: 1196907228}
   - component: {fileID: 1196907227}
   m_Layer: 5
-  m_Name: Panel
+  m_Name: Pause Panel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1196907226
 RectTransform:
   m_ObjectHideFlags: 0
@@ -862,6 +862,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 115e656472ba5864cb427132cb3515df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  pausePanel: {fileID: 1196907225}
+  restartGameButton: {fileID: 373204282}
+  scoreText: {fileID: 1798003606}
+  pauseText: {fileID: 217558981}
 --- !u!4 &1265697985
 Transform:
   m_ObjectHideFlags: 0
@@ -953,7 +957,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1599322350}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1265697984}
+        m_MethodName: PauseButton
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1599322350
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1067,7 +1082,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1783837063}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1265697984}
+        m_MethodName: GoToMenu
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1783837063
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1159,7 +1185,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: b1cfdc5b5a2bd764094f1c37c7a52ec3, type: 3}
+    m_Font: {fileID: 12800000, guid: 4675c88cd71f8b14ebb8b44a022e43a1, type: 3}
     m_FontSize: 26
     m_FontStyle: 0
     m_BestFit: 0
@@ -1395,7 +1421,7 @@ PrefabInstance:
     - target: {fileID: 6648448648922191797, guid: 653ff0e61557a2544804baa6064d69c9,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -2
+      value: -4
       objectReference: {fileID: 0}
     - target: {fileID: 6648448648922191797, guid: 653ff0e61557a2544804baa6064d69c9,
         type: 3}
@@ -1538,7 +1564,7 @@ PrefabInstance:
     - target: {fileID: 4276301655642100857, guid: 17837323690874d4aa04210625d0c528,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: -2
       objectReference: {fileID: 0}
     - target: {fileID: 4276301655642100857, guid: 17837323690874d4aa04210625d0c528,
         type: 3}
