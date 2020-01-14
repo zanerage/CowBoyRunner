@@ -830,14 +830,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.745283, g: 0.10898005, b: 0.10898005, a: 1}
+  m_Color: {r: 0.09433961, g: 0.07965467, b: 0.07965467, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 710e97250171bae4d898addeba87e8ac, type: 3}
-    m_FontSize: 90
+    m_Font: {fileID: 12800000, guid: b1cfdc5b5a2bd764094f1c37c7a52ec3, type: 3}
+    m_FontSize: 64
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 10
@@ -848,7 +848,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: CowBoyMaster
+  m_Text: CowBoy Master
 --- !u!222 &2130966076
 CanvasRenderer:
   m_ObjectHideFlags: 0
