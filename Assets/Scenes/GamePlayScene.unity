@@ -587,24 +587,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &616763344 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6648448648922191806, guid: 653ff0e61557a2544804baa6064d69c9,
-    type: 3}
-  m_PrefabInstance: {fileID: 2142400500}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &616763345
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 616763344}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c7edee6482e216f4eb84afda70215085, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &634381167
 GameObject:
   m_ObjectHideFlags: 0
@@ -707,9 +689,9 @@ MonoBehaviour:
   m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
+  m_ReferenceResolution: {x: 1280, y: 720}
   m_ScreenMatchMode: 0
-  m_MatchWidthOrHeight: 0
+  m_MatchWidthOrHeight: 0.5
   m_PhysicalUnit: 3
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
@@ -915,7 +897,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -86.100006, y: -61.199997}
+  m_AnchoredPosition: {x: -86.100006, y: -61.200012}
   m_SizeDelta: {x: 400, y: 110}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1599322349
@@ -1421,7 +1403,7 @@ PrefabInstance:
     - target: {fileID: 6648448648922191797, guid: 653ff0e61557a2544804baa6064d69c9,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -4
+      value: -2
       objectReference: {fileID: 0}
     - target: {fileID: 6648448648922191797, guid: 653ff0e61557a2544804baa6064d69c9,
         type: 3}
@@ -1463,11 +1445,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4182697749853962058, guid: 653ff0e61557a2544804baa6064d69c9,
-        type: 3}
-      propertyPath: jumpClip
-      value: 
-      objectReference: {fileID: 8300000, guid: 92400bc6d11c0af4d92f533efba6ae32, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 653ff0e61557a2544804baa6064d69c9, type: 3}
 --- !u!1001 &3253753034793203273
@@ -1564,7 +1541,7 @@ PrefabInstance:
     - target: {fileID: 4276301655642100857, guid: 17837323690874d4aa04210625d0c528,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -2
+      value: -4
       objectReference: {fileID: 0}
     - target: {fileID: 4276301655642100857, guid: 17837323690874d4aa04210625d0c528,
         type: 3}
