@@ -4,6 +4,7 @@ using UnityEngine;
 using GooglePlayGames;
 using UnityEngine.SocialPlatforms;
 using UnityEngine.UI;
+using GooglePlayGames;
 public class LeaderboardController : MonoBehaviour
 {
     public static LeaderboardController instance;
