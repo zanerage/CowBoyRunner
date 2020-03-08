@@ -180,7 +180,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Resume
+  m_Text: Retry
 --- !u!222 &24730437
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1223,8 +1223,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 1.75, y: -172.49998}
-  m_SizeDelta: {x: 1276.5, y: 375}
+  m_AnchoredPosition: {x: 1.75, y: -131.8}
+  m_SizeDelta: {x: 1276.5, y: 456.5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1926831748
 MonoBehaviour:
@@ -1369,7 +1369,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Main Menu
+  m_Text: Back to Menu
 --- !u!222 &2066928535
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1453,7 +1453,7 @@ PrefabInstance:
     - target: {fileID: 6648448648922191793, guid: 653ff0e61557a2544804baa6064d69c9,
         type: 3}
       propertyPath: m_GravityScale
-      value: 0.9
+      value: 1.4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 653ff0e61557a2544804baa6064d69c9, type: 3}
