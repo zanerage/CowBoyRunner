@@ -6,3 +6,6 @@ Never Ending Runner game where you are trying to dodge objects and zombies insid
 Its my first game ever made in Unity so please have a mercy :D
 
 I followed tutorial from Awesome Tuts to complete this game , i am looking forward to create more games!
+
+<a href="http://mario-antolovic.com/cowboymaster/index3.html" target="_blank">Click here to try the game in your browser!</a>
+
