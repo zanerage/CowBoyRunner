@@ -9,3 +9,4 @@ I followed tutorial from Awesome Tuts to complete this game , i am looking forwa
 
 <a href="http://mario-antolovic.com/cowboymaster/index3.html" target="_blank">Click here to try the game in your browser!</a>
 
+<img src="http://mario-antolovic.com/src/img/menugame.png" alt="Italian Trulli">
